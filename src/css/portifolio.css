@@ -52,3 +52,43 @@ header nav ul li a{
 header nav ul li a:hover{
     color:var(--branco);
 }
+
+.promo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--color1);
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 9px 9px var(--color2);
+}
+
+#titulo {
+    font-size: 30px;
+    color:#000000;
+}
+
+.cards-promos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-promo {
+    width: 30%;
+    background-color: var(--color5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-promo p {
+    font-weight: 700;
+    color: var(--preto);
+}
+
