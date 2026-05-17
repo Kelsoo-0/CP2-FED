@@ -1,0 +1,54 @@
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --color1: #CD853F;
+    --color2: #D2691E;
+    --color3: #F4A460;
+    --color4: #FFDEAD;
+    --color5: #F5DEB3;
+    --fontFamily: "Cascadia-Code", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fontFamily);
+    background: var(--color5);
+    
+}
+
+header .logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+header{
+    background-color: var(--color1);
+    color: var(--preto);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 9px 9px var(--color2);
+    border-radius: 50px;
+}
+
+header nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color:var(--color4);
+    font-weight:800;
+}
+
+header nav ul li a:hover{
+    color:var(--branco);
+}
