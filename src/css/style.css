@@ -17,7 +17,7 @@
 body{
     font-family: var(--fontFamily);
     background: var(--color5);
-    
+
 }
 
 header .logo{
@@ -51,4 +51,78 @@ header nav ul li a{
 
 header nav ul li a:hover{
     color:var(--branco);
+}
+
+
+footer {
+    background-color: var(--color1);
+    padding: 30px 40px 15px;
+    margin-top: 0;
+    box-shadow: 0 -5px 15px var(--color2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--color2);
+}
+
+.footer-coluna {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-coluna h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: var(--preto);
+    margin-bottom: 12px;
+}
+
+.footer-coluna p {
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+    color: var(--color5);
+    font-weight: 800;
+    background-color: var(--color2);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.redes-sociais li a:hover {
+    background-color: #8B4513;
+    transform: scale(1.08);
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-copyright p {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 14px;
 }
