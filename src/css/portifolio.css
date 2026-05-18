@@ -133,3 +133,26 @@ header nav ul li a:hover{
     color: var(--preto);
 }
 
+.img-promo,
+.img-produto {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-promo p,
+.card-produto p {
+    background-color: var(--color1);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#titulo,
+#p-titulo {
+    font-family: "Fredoka", sans-serif;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
