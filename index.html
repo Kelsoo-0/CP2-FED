@@ -1,23 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Home</title>
-</head>
-<body>
-    <header>
-        <img src="./src/assets/Logo PetShop.avif" alt="Logo PetShop" class="logo">
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./src/pages/sobre.html">Sobre</a></li>
-                <li><a href="./src/pages/contato.html">Contato</a></li>
-                <li><a href="./src/pages/portifolio.html">Portifolio</a></li>
-            </ul>
-        </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="PetShop - O melhor cuidado para o seu pet. Confira nossos produtos, serviços e promoções exclusivas.">
+  <link rel="stylesheet" href="./src/css/home.css">
+  <title>Home | PetShop</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="./src/assets/Logo PetShop.avif" alt="Logo PetShop" class="logo">
+    <nav>
+      <ul>
+        <li><a href="./index.html" id="nav-home">Home</a></li>
+        <li><a href="./src/pages/portifolio.html" id="nav-portifolio">Portfólio</a></li>
+        <li><a href="./src/pages/sobre.html" id="nav-sobre">Sobre</a></li>
+        <li><a href="./src/pages/contato.html" id="nav-contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-card">
+      <h1>🐾 Bem-vindo ao PetShop!</h1>
+      <p class="subtitulo">Tudo o que seu pet precisa, em um só lugar. Explore nossas páginas:</p>
+
+      <div class="nav-cards">
+        <a href="./index.html" class="nav-card" id="card-home">
+          <span class="nav-icon">🏠</span>
+          <span class="nav-label">Home</span>
+        </a>
+        <a href="./src/pages/portifolio.html" class="nav-card" id="card-portifolio">
+          <span class="nav-icon">🛍️</span>
+          <span class="nav-label">Portfólio</span>
+        </a>
+        <a href="./src/pages/sobre.html" class="nav-card" id="card-sobre">
+          <span class="nav-icon">🐶</span>
+          <span class="nav-label">Sobre</span>
+        </a>
+        <a href="./src/pages/contato.html" class="nav-card" id="card-contato">
+          <span class="nav-icon">📞</span>
+          <span class="nav-label">Contato</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="promo">
+    <div class="card-promo-container">
+      <h2>🏷️ Promoções em Destaque</h2>
+      <p class="promo-subtitle">Aproveite nossas ofertas especiais desta semana!</p>
+
+      <div class="cards-promos">
+        <div class="card-promo">
+          <img src="./src/assets/racao.jfif" alt="Ração para cães" class="img-promo">
+          <p>Ração para cães — 20% de desconto</p>
+        </div>
+
+        <div class="card-promo">
+          <img src="./src/assets/brinquedo.jfif" alt="Brinquedos para cães" class="img-promo">
+          <p>Brinquedos para cães — Compre 1, leve 2</p>
+        </div>
+
+        <div class="card-promo">
+          <img src="./src/assets/banho.jfif" alt="Banho e tosa" class="img-promo">
+          <p>Banho e tosa — 15% de desconto</p>
+        </div>
+      </div>
+
+      <a href="./src/pages/portifolio.html" class="ver-mais-btn" id="btn-ver-mais">Ver todos os produtos →</a>
+    </div>
+  </section>
+
 </body>
+
 </html>

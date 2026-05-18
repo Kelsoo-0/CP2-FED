@@ -1,0 +1,205 @@
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --color1: #CD853F;
+    --color2: #D2691E;
+    --color3: #F4A460;
+    --color4: #FFDEAD;
+    --color5: #F5DEB3;
+    --fontFamily: "Cascadia-Code", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fontFamily);
+    background: var(--color5);
+    background-image: url('../assets/pelo_golden.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header .logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: var(--color1);
+    color: var(--preto);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 9px 9px var(--color2);
+    border-radius: 50px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 800;
+}
+
+header nav ul li a:hover {
+    color: var(--branco);
+}
+
+.hero {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-card {
+    background-color: var(--color1);
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 9px 9px var(--color2);
+}
+
+.hero-card h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.hero-card p.subtitulo {
+    font-weight: 700;
+    color: var(--preto);
+    margin-bottom: 30px;
+}
+
+.nav-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-card {
+    width: 30%;
+    background-color: var(--color5);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px var(--color2);
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.nav-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px var(--color2);
+}
+
+.nav-card .nav-icon {
+    font-size: 36px;
+}
+
+.nav-card .nav-label {
+    display: block;
+    font-family: "Fredoka", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--preto);
+    background-color: var(--color1);
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.promo {
+    padding: 20px 70px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-promo-container {
+    background-color: var(--color1);
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 9px 9px var(--color2);
+}
+
+.card-promo-container h2 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.cards-promos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-promo {
+    width: 30%;
+    background-color: var(--color5);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px var(--color2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-promo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px var(--color2);
+}
+
+.img-promo {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card-promo p {
+    background-color: var(--color1);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.ver-mais-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 32px;
+    background-color: var(--color5);
+    color: var(--preto);
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 5px 8px var(--color2);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.ver-mais-btn:hover {
+    color: var(--branco);
+    transform: scale(1.05);
+    background-color: var(--color2);
+    box-shadow: 0 10px 20px var(--color2);
+}
