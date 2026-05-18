@@ -1,0 +1,199 @@
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --color1: #CD853F;
+    --color2: #D2691E;
+    --color3: #F4A460;
+    --color4: #FFDEAD;
+    --color5: #F5DEB3;
+    --fontFamily: "Cascadia-Code", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fontFamily);
+    background: var(--color5);
+    background-image: url('../assets/pelo_golden.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+header .logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+header{
+    background-color: var(--color1);
+    color: var(--preto);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 9px 9px var(--color2);
+    border-radius: 50px;
+}
+
+header nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color:var(--color4);
+    font-weight:800;
+}
+
+header nav ul li a:hover{
+    color:var(--branco);
+}
+
+.card{
+    padding: 70px;
+    background-color: var(--color2);
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.titulo{
+    color: var(--color4);
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: var(--fontFamily);
+}
+div .subtitulo{
+    color: var(--color3);
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-family: var(--fontFamily);
+}
+
+div p{
+    color: var(--color4);
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: var(--fontFamily);
+}
+.fundadores{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.camila{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.thiago{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.helena{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.nome{
+    color: #FFFFFF;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--fontFamily);
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+footer {
+    background-color: var(--color1);
+    padding: 30px 40px 15px;
+    margin-top: 0;
+    box-shadow: 0 -5px 15px var(--color2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--color2);
+}
+
+.footer-coluna {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.footer-coluna h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: var(--preto);
+    margin-bottom: 12px;
+}
+
+.footer-coluna p {
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+    color: var(--color5);
+    font-weight: 800;
+    background-color: var(--color2);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.redes-sociais li a:hover {
+    background-color: #8B4513;
+    transform: scale(1.08);
+}
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-copyright p {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 14px;
+}
