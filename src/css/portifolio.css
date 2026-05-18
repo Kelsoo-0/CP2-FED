@@ -94,4 +94,42 @@ header nav ul li a:hover{
     color: var(--preto);
 }
 
+/* Produtos */
+.produtos {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-produtos {
+    background-color: var(--color1);
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 9px 9px var(--color2);
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-produto {
+    width: calc(33.33% - 20px);
+    background-color: var(--color5);
+    padding: 25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px var(--color2);
+}
+
+.card-produto p {
+    font-weight: 700;
+    color: var(--preto);
+}
 
